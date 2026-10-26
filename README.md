@@ -155,14 +155,12 @@ label.
 1. **Check the AI's plans against the code.** In one stage the code samples in its plans were wrong
    9 times in about 16 tasks. They were caught because the implementing agents were told that the real
    files win over the plan.
-2. **'No tests ran' can look like a pass.** The untracked test suite silently vanished. It was rebuilt
-   in a day; now it is tracked in git, and an empty run counts as a failure.
-3. **Rigour has a cost.** One stage took about 28 hours of review-and-fix cycles, and the test suite
+2. **Rigour has a cost.** One stage took about 28 hours of review-and-fix cycles, and the test suite
    grew to 55 minutes. The answer was one review per task and a commit gate of about 2 minutes, with the
    full suite run only before a release.
-4. **Rules must be specific.** A general instruction did not stop AI attribution slipping into public
+3. **Rules must be specific.** A general instruction did not stop AI attribution slipping into public
    commits in other repositories. Specific prohibitions plus a check before every push did.
-5. **Never put real evaluation data in prompt examples.** A model being scored reads the prompt, so a
+4. **Never put real evaluation data in prompt examples.** A model being scored reads the prompt, so a
    real value in an example hands it part of the answer.
 
 ---
