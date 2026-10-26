@@ -134,14 +134,14 @@ label.
 - **The author**: the goals, and the invariants that must never break: every scored value printed
   verbatim on the page, no real businesses, no silent clipping, YAML as the single source of
   configuration.
-- **The AI coding assistant**: design documents, staged implementation plans, code, tests and documentation; it
-  also ran validation and kept the documents consistent.
-- **Model inference** ran separately on the GPU host. The assistant never generated or scored the data
+- **The AI coding assistant**: initial design with 10 of the author's personal Receipts, Invoices and Bank Statement images, staged implementation plans, code, tests and documentation; it
+  also ran validation author's (if-then) acceptance behaviour tests (regressively) and kept the documents consistent.
+- **Model inference** ran separately on the GPU host. The coding assistant never generated or scored the data
   itself.
 
 ### How it was set up
 
-- **A standing instructions file** sets the engineering standards for every session: fail-fast errors in
+- **A standing instructions file** sets the engineering standards for every session: yaml first, fail-fast errors in
   four parts (what is wrong, where to fix it, a valid example, how to recover), tests before every
   commit, pinned dependencies, British spelling.
 - **Persistent memory**: 26 notes carry decisions and lessons from one session to the next.
