@@ -16,6 +16,18 @@ repository on that date.
 - Australian document conventions throughout: ABNs, GST, DD/MM/YYYY dates. Document dates span 2023
   and 2024.
 
+### Example pages: case 1, clean and heavily damaged
+
+These six pages come from earlier versions of the corpus (August and September 2026), when bank
+statements and invoices were damaged as well as receipts; the current corpus damages receipts only.
+Click an image for full size.
+
+| | Clean | Heavily damaged |
+|---|---|---|
+| Bank statement | <img src="images/CASE001_bank_statement.png" width="300"> | <img src="images/CASE001_bank_statement_v3.png" width="300"> |
+| Invoice | <img src="images/CASE001_invoice.png" width="300"> | <img src="images/CASE001_invoice_heavy.png" width="300"> |
+| Receipt | <img src="images/CASE001_receipt.png" width="300"> | <img src="images/CASE001_receipt_v3.png" width="300"> |
+
 ## 2. The key idea: the answers come first, then the page is drawn from them
 
 - The usual approach is to collect real documents and pay people to label them. Here it runs the other
